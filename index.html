@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Sign-Up Form</title>
+    <!-- Google Fonts --> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome --> 
+    <script defer src="https://kit.fontawesome.com/f85e059d82.js" crossorigin="anonymous"></script>
+    <body>
+        <div class="container">
+            <div class="welcome">
+                <h1>Welcome</h1>
+            </div>
+            <div class="sign-up">
+                <h1>Create Account</h1>
+                <div class="social">
+                    <i class="fab fa-facebook-f fa-2x margin-right-sm border"></i>
+                    <i class="fab fa-linkedin-in fa-2x margin-right-sm border"></i>
+                    <i class="fab fa-google-plus-g fa-2x border"></i>
+                </div>
+                <p class="margin-top">or use your e-mail for registration</p>
+                <form action="/" name="sign-up-form" onsubmit="return formValidation()" novalidate>
+                    <div class="box">
+
+                        <input type="text" class="form-styling margin-top-sm" placeholder="Username">
+
+                        <input type="text" class="form-styling margin-top-sm" placeholder="E-Mail">
+
+                        <input type="email" class="form-styling margin-top-sm" placeholder="Password">
+
+                        <!-- <button id="free-trial" class="btn btn-lg btn-block" type="submit">CLAIM YOUR FREE TRIAL</button>
+                        <p id="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</head> 
+</html>
